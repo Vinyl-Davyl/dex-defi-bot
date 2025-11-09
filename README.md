@@ -1,4 +1,4 @@
-# Dex Defi Bot
+# dex defi bot 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue" alt="Python 3.9+">
@@ -66,8 +66,8 @@ A powerful Telegram bot that helps users find the best yield opportunities in De
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/defi-yield-finder.git
-   cd defi-yield-finder
+   git clone https://github.com/yourusername/dex-defi-bot.git
+   cd dex-defi-bot
    ```
 
 2. Create a `.env` file in the root directory with your API keys:
@@ -75,7 +75,7 @@ A powerful Telegram bot that helps users find the best yield opportunities in De
    ```
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
    FIREWORKS_API_KEY=your_fireworks_api_key
-   BOT_NAME=DeFi Yield Finder
+   BOT_NAME=Dex Defi Bot
    ```
 
 3. Run the setup script:
@@ -151,6 +151,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or feedback, please open an issue on this repository or contact the maintainer.
 
----
-
-<p align="center">Built with ❤️ for the Sentient AI Agent Builders Program</p>
