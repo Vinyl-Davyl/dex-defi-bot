@@ -1,0 +1,335 @@
+2025-11-01 07:56:15,004 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-01 07:56:15,289 - __main__ - ERROR - Error in main: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 23, in main
+    logger.info(f"Bot started successfully as @{application.bot.username}")
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 574, in username
+    return self.bot.username  # type: ignore
+           ^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 542, in bot
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+2025-11-01 08:10:11,668 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-01 08:10:11,968 - __main__ - ERROR - Error in main: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 23, in main
+    logger.info(f"Bot started successfully as @{application.bot.username}")
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 574, in username
+    return self.bot.username  # type: ignore
+           ^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 542, in bot
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+2025-11-01 08:10:51,991 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-01 08:10:55,956 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-01 08:10:55,957 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-01 08:10:55,957 - __main__ - ERROR - Error in main: Cannot close a running event loop
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1079, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 695, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 631, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 30, in main
+    await application.run_polling(allowed_updates=["message", "callback_query"])
+          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1084, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/unix_events.py", line 70, in close
+    super().close()
+    ~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-11-01 08:11:33,950 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-01 08:11:35,717 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-01 08:11:35,717 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:10:31,463 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:10:32,202 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:10:32,202 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:15:10,230 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:15:11,981 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:15:11,982 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:17:09,864 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:17:10,602 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:17:10,602 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:24:33,006 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:24:33,708 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:24:33,709 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:32:54,492 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:32:56,202 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:32:56,203 - __main__ - INFO - Bot ID: 8202905381
+2025-11-03 10:32:56,203 - __main__ - INFO - Bot can_join_groups: True
+2025-11-03 10:32:56,203 - __main__ - INFO - Bot can_read_all_group_messages: False
+2025-11-03 10:32:56,203 - __main__ - INFO - Bot supports_inline_queries: False
+2025-11-03 10:32:56,203 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:32:56,360 - __main__ - INFO - Successfully connected to Telegram API. Bot info: User(can_connect_to_business=False, can_join_groups=True, can_read_all_group_messages=False, first_name='Dex Bot', has_main_web_app=False, id=8202905381, is_bot=True, supports_inline_queries=False, username='dex_defi_bot')
+2025-11-03 10:32:56,360 - __main__ - INFO - Starting polling for updates...
+2025-11-03 10:32:56,540 - __main__ - INFO - Polling started successfully
+2025-11-03 10:43:07,839 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:43:08,834 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-03 10:43:08,834 - __main__ - INFO - Bot ID: 8202905381
+2025-11-03 10:43:08,834 - __main__ - INFO - Bot can_join_groups: True
+2025-11-03 10:43:08,834 - __main__ - INFO - Bot can_read_all_group_messages: False
+2025-11-03 10:43:08,834 - __main__ - INFO - Bot supports_inline_queries: False
+2025-11-03 10:43:08,835 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-03 10:43:09,015 - __main__ - INFO - Successfully connected to Telegram API. Bot info: User(can_connect_to_business=False, can_join_groups=True, can_read_all_group_messages=False, first_name='Dex Bot', has_main_web_app=False, id=8202905381, is_bot=True, supports_inline_queries=False, username='dex_defi_bot')
+2025-11-03 10:43:09,015 - __main__ - INFO - Starting polling for updates...
+2025-11-03 10:43:09,186 - __main__ - INFO - Polling started successfully
+2025-11-03 10:57:52,377 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-03 10:57:52,721 - __main__ - ERROR - Error in main: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 27, in main
+    logger.info(f"Bot started successfully as @{application.bot.username}")
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 574, in username
+    return self.bot.username  # type: ignore
+           ^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 542, in bot
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: ExtBot is not properly initialized. Call `ExtBot.initialize` before accessing this property.
+2025-11-09 15:39:52,486 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-09 15:39:53,684 - __main__ - INFO - Bot started successfully as @dex_defi_bot
+2025-11-09 15:39:53,685 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-09 15:44:58,747 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-09 15:45:01,012 - __main__ - ERROR - Error in main: The token `88202905381:AAHS8EAvNtK1kCiPxXRsWglEiT_EWfKhf7o` was rejected by the server.
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 854, in initialize
+    await self.get_me()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 1999, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 985, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 23, in main
+    await application.initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 318, in initialize
+    await super().initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 856, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `88202905381:AAHS8EAvNtK1kCiPxXRsWglEiT_EWfKhf7o` was rejected by the server.
+2025-11-09 15:46:28,362 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-09 15:46:32,246 - __main__ - INFO - Bot started successfully as @dex_defi_senti_bot
+2025-11-09 15:46:32,246 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-09 15:53:00,234 - __main__ - INFO - Bot stopped by user
+2025-11-09 15:53:08,954 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-09 15:53:09,698 - __main__ - INFO - Bot started successfully as @roma_driod_echo_bot
+2025-11-09 15:53:09,698 - __main__ - INFO - Press Ctrl+C to stop the bot
+2025-11-09 15:54:15,130 - __main__ - INFO - Bot stopped by user
+2025-11-09 15:54:22,662 - __main__ - INFO - Starting DeFi Yield Finder Bot...
+2025-11-09 15:54:27,954 - __main__ - ERROR - Error in main: Timed out
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/src/main.py", line 23, in main
+    await application.initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 318, in initialize
+    await super().initialize()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 854, in initialize
+    await self.get_me()
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 1999, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 985, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 372, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/mac/Desktop/Sentient/Build/DeFi-Yield-Finder/venv/lib/python3.14/site-packages/telegram/request/_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
