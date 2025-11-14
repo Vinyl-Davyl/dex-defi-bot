@@ -34,7 +34,7 @@ A powerful Telegram bot that helps users find the best yield opportunities in De
 - **Market Sentiment Summaries**: Get AI summaries of market sentiment
 - **Yield Entry Explanations**: Understand the reasoning behind yield entry recommendations
 
-## 📋 Commands
+## Commands
 
 | Command              | Description                                         | Example                         |
 | -------------------- | --------------------------------------------------- | ------------------------------- |
@@ -51,7 +51,7 @@ A powerful Telegram bot that helps users find the best yield opportunities in De
 | `/trading_signals`   | Get trading signals for a token                     | `/trading_signals bitcoin`      |
 | `/yield_entry`       | Check if it's a good time to enter a yield position | `/yield_entry ethereum`         |
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 
@@ -110,13 +110,13 @@ DeFi-Yield-Finder/
 └── README.md               # Project documentation
 ```
 
-## 🔄 API Integrations
+## API Integrations
 
 - **DeFiLlama API**: Used to fetch yield data across DeFi protocols
 - **CoinGecko API**: Used for token prices and market data
 - **Fireworks AI API**: Used for AI-powered analysis and insights
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **python-telegram-bot**: Framework for Telegram bot development
@@ -124,30 +124,30 @@ DeFi-Yield-Finder/
 - **Fireworks AI**: AI model for generating insights and analysis
 - **asyncio**: For asynchronous programming
 
-## 📊 Data Sources
+## Data Sources
 
 - **DeFiLlama**: For yield data across DeFi protocols
 - **CoinGecko**: For token prices, market caps, and trading volumes
 - **TradingView**: For technical indicators and trading signals
 
-## 🔒 Privacy and Security
+## Privacy and Security
 
 - All API keys are stored locally in the `.env` file and never shared
 - No user data is collected or stored
 - All API requests are made directly from the bot to the respective APIs
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [Sentient AI](https://sentient.io/) for the Agent Builders Program
 - [DeFiLlama](https://defillama.com/) for providing comprehensive DeFi data
 - [CoinGecko](https://www.coingecko.com/) for token and market data
 - [Fireworks AI](https://fireworks.ai/) for AI capabilities
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue on this repository or contact the maintainer.
 
